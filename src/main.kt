@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
     val pretzel = Snack(3,"Pretzel",30, 2F,1)
     val soda = Snack(4,"Soda",24, 2.5F,2)
     val water = Snack(5,"water",20, 2.75F,2)
+    jane.purchase(soda,3)
 
 
 }
