@@ -1,3 +1,5 @@
+import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.random.Random
 
 fun main(args: Array<String>) {
@@ -20,6 +22,18 @@ fun main(args: Array<String>) {
     jane.purchase(chocolateBar,1,food)
     food.add(pretzel,30)
     food.add(pretzel,12)
-    bob.purchase(pretzel,3,food)
+    for(i in 1..10){
+        bob.purchase(pretzel,3,food)
+        1
 
+    }
+
+    var snacks:ArrayList<Snack> = ArrayList(1)
+    var jihan:ArrayList<VendingMachine> =ArrayList(1)
+
+    val input = Scanner(System.`in`)
+    val a = input.nextInt()
+    val b = input.nextInt()
+    val c = input.nextInt()
+    jane.purchase(soda,a,drink)
 }
